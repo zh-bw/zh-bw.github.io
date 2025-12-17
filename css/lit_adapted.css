@@ -280,11 +280,13 @@ a:hover{
 .paper-title { font-weight: 900; }
 .paper-authors { color: #555; margin-top: 2px; }
 
-.conf-title{
-    color: #000;                /* pure black */
-    font-weight: 900;           /* very bold; falls back if 900 not available */
-    line-height: 1.2;
-    letter-spacing: -0.01em;
-    /* font-size: clamp(1.1rem, 2.2vw, 1.5rem); */
-  }
+.conf-title {
+  color: #1f425ce3;                
+  font-weight: 800;
+  line-height: 1.25;
+  font-style: italic;
+  letter-spacing: -0.005em;
+  -webkit-text-stroke: 0.4px #1f425ce3;
+}
+
   
